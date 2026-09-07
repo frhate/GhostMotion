@@ -1,0 +1,13 @@
+# Ghost Network — Real-Time Privacy-Preserving Camera
+# =====================================================
+# Core dependencies (all lightweight, no heavy ML frameworks needed)
+
+opencv-python==4.10.0.84 # Camera capture, Canny edge detection, face detection, display
+numpy>=1.21.0           # Array operations
+Pillow>=9.0.0           # Image processing for tkinter GUI
+matplotlib>=3.5.0       # Real-time metrics plots in GUI version
+
+# Optional: for enhanced face detection
+# facenet-pytorch>=2.5.0  # MTCNN face detector (more accurate than Haar)
+# insightface>=0.7.0      # RetinaFace detector (most accurate)
+
